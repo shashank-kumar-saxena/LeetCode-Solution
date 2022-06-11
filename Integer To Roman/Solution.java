@@ -31,90 +31,135 @@ num=Math.floor(num/10);
     }
  i++;
 }
- console.log(store);
  return store;
 };
 function oneNine(num)
 {
-  if(num==0)
-  return "";
-  if(num==1)
-  return "I";
-  if(num==2)
-  return "II";
-  if(num==3)
-  return "III";
-  if(num==4)
-  return "IV";
-  if(num==5)
-  return "V";
-  if(num==6)
-  return "VI";
-  if(num==7)
-  return "VII";
-  if(num==8)
-  return "VIII";
- if(num==9)
-  return "IX";
-  if(num==0)
-  return "";
+    switch(num)
+        {
+            case 0:
+                  return "";
+                break
+            case 1:
+                  return "I";
+                break
+            case 2:
+                  return "II";
+                break
+            case 3:
+                  return "III";
+                break
+            case 4:
+                  return "IV";
+                break
+            case 5:
+                  return "V";
+                break
+            case 6:
+                  return "VI";
+                break
+            case 7:
+                  return "VII";
+                break
+                case 8:
+                  return "VIII";
+                break
+            case 9:
+                  return "IX";
+                break 
+        }
 }
 function tenToNine(num)
 {
-if(num==1)
-return "X";
-if(num==2)
-return "XX";
-if(num==3)
-return "XXX";
-if(num==4)
-return "XL";
-if(num==5)
-return "L";
-if(num==6)
-return "LX";
-if(num==7)
-return "LXX";
-if(num==8)
-return "LXXX"; 
-if(num==9)
-return "XC";
-if(num==0)
-return ""; 
+    switch(num)
+        {
+            case 0:
+                  return "";
+                break
+            case 1:
+                return "X";
+                break
+            case 2:
+                return "XX";
+                break
+            case 3:
+                return "XXX";
+                break
+            case 4:
+                return "XL";
+                break
+            case 5:
+                return "L";
+                break
+            case 6:
+                return "LX";
+                break
+            case 7:
+                return "LXX";
+                break
+                case 8:
+                return "LXXX"; 
+                break
+            case 9:
+                return "XC";
+                break 
+        }
 }
 function hundredTo(num)
 {
-  if(num==1)
-  return "C";
-  if(num==2)
-  return "CC";
-  if(num==3)
-  return  "CCC";
-  if(num==4)
-  return  "CD";
-  if(num==5)
-  return  "D";
-  if(num==6)
-  return  "DC";
-  if(num==7)
-  return  "DCC";
-  if(num==8)
-  return  "DCCC";
-  if(num==9)
-  return  "CM";
-  if(num==0)
-  return "";
+    switch(num)
+        {
+            case 0:
+                  return "";
+                break
+            case 1:
+                  return "C";
+                break
+            case 2:
+                  return "CC";
+                break
+            case 3:
+                  return  "CCC";
+                break
+            case 4:
+                  return  "CD";
+                break
+            case 5:
+                  return  "D";
+                break
+            case 6:
+                  return  "DC";
+                break
+            case 7:
+                  return  "DCC";
+                break
+                case 8:
+                  return  "DCCC";
+                break
+            case 9:
+                  return  "CM";
+                break 
+        }
 }
 function thousandTO(num)
 {
-  if(num==0)
-  return "";
-   if(num==1)
-  return "M";
-   if(num==2)
-  return "MM";
-   if(num==3)
-  return "MMM";
-   if(num==4)
-  return "MMMM";
+    switch(num)
+        {
+            case 0:
+                return "";
+                break
+            case 1:
+                return "M";
+                break
+            case 2:
+                return "MM";
+                break
+            case 3:
+                return "MMM";
+                break
+            case 4:
+                  return "MMMM";
+                break
+    
+        }
 }
